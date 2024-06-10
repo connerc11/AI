@@ -5,6 +5,10 @@ import msgIcon from './assets/message.svg'
 import home from './assets/home.svg'
 import saved from './assets/bookmark.svg'
 import rocket from './assets/rocket.svg'
+import sendBtn from "./assets/send.svg"
+import userIcon from "./assets/user-icon.png"
+import gptImgLogo from "./assets/chatgptLogo.svg"
+
 
 function App() {
   return (
@@ -22,13 +26,23 @@ function App() {
       <div className='lowerSide'>
       <button className='listItems'><img src={home} alt="" className='listItemsImg' /> Home</button>
       <button className='listItems'><img src={saved} alt="" className='listItemsImg' /> Save </button>
-      <button className='listItems'><img src={rocket} alt="" className='listItemsImg' /> Save </button>
+      <button className='listItems'><img src={rocket} alt="" className='listItemsImg' /> Upgrade To Pro  </button>
 
 
       </div>
     </div>
     <div className='main'> 
+      <div className='chats'>
+        <div className='chat'>
+          <img src="" alt ="" /> <p className='txt'>Here for the texttttt</p>
+        </div>
+      </div>
+      <div className='chatFooter'>
+        <div className='inp'>
+          <input type='text' name="" id="" /><button className='send'> <img src={sendBtn} alt = "send" /></button>
+        </div>
 
+      </div>
     </div>
     </div>
 
